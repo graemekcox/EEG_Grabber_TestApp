@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		095C41351F0DDB7F00C5C604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41341F0DDB7F00C5C604 /* AppDelegate.swift */; };
-		095C41371F0DDB7F00C5C604 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41361F0DDB7F00C5C604 /* ViewController.swift */; };
+		095C41371F0DDB7F00C5C604 /* EEGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41361F0DDB7F00C5C604 /* EEGViewController.swift */; };
 		095C413A1F0DDB7F00C5C604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C41381F0DDB7F00C5C604 /* Main.storyboard */; };
 		095C413C1F0DDB7F00C5C604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 095C413B1F0DDB7F00C5C604 /* Assets.xcassets */; };
 		095C413F1F0DDB7F00C5C604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C413D1F0DDB7F00C5C604 /* LaunchScreen.storyboard */; };
 		095C414A1F0DDB8000C5C604 /* EEG_GAE_TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41491F0DDB8000C5C604 /* EEG_GAE_TestAppTests.swift */; };
+		095C41551F0DDC3B00C5C604 /* EEGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41541F0DDC3B00C5C604 /* EEGData.swift */; };
+		095C415B1F0E5C0E00C5C604 /* EEGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */; };
+		095C415D1F0E5E5A00C5C604 /* EEGTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +31,7 @@
 /* Begin PBXFileReference section */
 		095C41311F0DDB7F00C5C604 /* EEG_GAE_TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEG_GAE_TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C41341F0DDB7F00C5C604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		095C41361F0DDB7F00C5C604 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		095C41361F0DDB7F00C5C604 /* EEGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEGViewController.swift; sourceTree = "<group>"; };
 		095C41391F0DDB7F00C5C604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		095C413B1F0DDB7F00C5C604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095C413E1F0DDB7F00C5C604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,9 @@
 		095C41451F0DDB8000C5C604 /* EEG_GAE_TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EEG_GAE_TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C41491F0DDB8000C5C604 /* EEG_GAE_TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEG_GAE_TestAppTests.swift; sourceTree = "<group>"; };
 		095C414B1F0DDB8000C5C604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095C41541F0DDC3B00C5C604 /* EEGData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGData.swift; sourceTree = "<group>"; };
+		095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGTableViewCell.swift; sourceTree = "<group>"; };
+		095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,7 @@
 		095C41281F0DDB7F00C5C604 = {
 			isa = PBXGroup;
 			children = (
+				095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */,
 				095C41331F0DDB7F00C5C604 /* EEG_GAE_TestApp */,
 				095C41481F0DDB8000C5C604 /* EEG_GAE_TestAppTests */,
 				095C41321F0DDB7F00C5C604 /* Products */,
@@ -78,8 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				095C41341F0DDB7F00C5C604 /* AppDelegate.swift */,
-				095C41361F0DDB7F00C5C604 /* ViewController.swift */,
+				095C41361F0DDB7F00C5C604 /* EEGViewController.swift */,
 				095C41381F0DDB7F00C5C604 /* Main.storyboard */,
+				095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */,
+				095C41541F0DDC3B00C5C604 /* EEGData.swift */,
 				095C413B1F0DDB7F00C5C604 /* Assets.xcassets */,
 				095C413D1F0DDB7F00C5C604 /* LaunchScreen.storyboard */,
 				095C41401F0DDB7F00C5C604 /* Info.plist */,
@@ -201,8 +210,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				095C41371F0DDB7F00C5C604 /* ViewController.swift in Sources */,
+				095C41371F0DDB7F00C5C604 /* EEGViewController.swift in Sources */,
+				095C415B1F0E5C0E00C5C604 /* EEGTableViewCell.swift in Sources */,
+				095C41551F0DDC3B00C5C604 /* EEGData.swift in Sources */,
 				095C41351F0DDB7F00C5C604 /* AppDelegate.swift in Sources */,
+				095C415D1F0E5E5A00C5C604 /* EEGTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 				095C41501F0DDB8000C5C604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		095C41511F0DDB8000C5C604 /* Build configuration list for PBXNativeTarget "EEG_GAE_TestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				095C41531F0DDB8000C5C604 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
