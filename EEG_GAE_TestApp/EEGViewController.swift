@@ -1,4 +1,4 @@
-//
+ //
 //  ViewController.swift
 //  EEG_GAE_TestApp
 //
@@ -8,6 +8,8 @@
 
 import UIKit
 import os.log
+import Firebase
+import FirebaseDatabase
 
 class EEGViewController: UIViewController, UITextFieldDelegate {
 
@@ -22,7 +24,9 @@ class EEGViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var nameLabel: UITextField!
     
     @IBOutlet weak var timeStampLabel: UITextField!
-
+    
+    let ref = Database.database().reference(withPath: "Patient")
+  //  let ref = Database.database().reference(withPath: "patient-data")
     
     //MARK: Naviagtion
     
@@ -37,6 +41,7 @@ class EEGViewController: UIViewController, UITextFieldDelegate {
         let timeStamp = timeStampField.text ?? ""
         var setLength = Int(setLengthField.text ?? "")
         
+        
         if (setLength == nil)
         {
             setLengthField.text = "100"
@@ -45,6 +50,14 @@ class EEGViewController: UIViewController, UITextFieldDelegate {
         
         eeg = EEG(name: name, setLength: setLength!, timestamp:
             timeStamp)
+        
+        
+        //update Firebase
+        
+        let name_fb = self.ref.child(name.lowercased())
+        name_fb.setValue(eeg?.toAnyObject())
+        
+        
     }
     
     

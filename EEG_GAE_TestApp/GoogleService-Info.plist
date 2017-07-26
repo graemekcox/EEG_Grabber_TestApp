@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>691715389941-him248q7g9pj8e7rsbunng6977m7kr3b.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.691715389941-him248q7g9pj8e7rsbunng6977m7kr3b</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDfwBzWC0A040SACgiKAMQeiNUDHoQc9L8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>691715389941</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>test.EEG-GAE-TestApp</string>
+	<key>PROJECT_ID</key>
+	<string>eegtestapp-gcm</string>
+	<key>STORAGE_BUCKET</key>
+	<string>eegtestapp-gcm.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:691715389941:ios:aace589ca8165ae3</string>
+	<key>DATABASE_URL</key>
+	<string>https://eegtestapp-gcm.firebaseio.com</string>
+</dict>
+</plist>

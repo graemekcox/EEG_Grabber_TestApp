@@ -29,6 +29,12 @@ class EEG{
     var setLength: Int //length of data points
     var timestamp:String //data and time of data
     
-    
+    func toAnyObject() -> Any {
+        return [
+            "name": name,
+            "length": setLength,
+            "timestamp": timestamp
+        ]
+    }
     
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092DE3A81F24E069009FD541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 092DE3A71F24E069009FD541 /* GoogleService-Info.plist */; };
 		095C41351F0DDB7F00C5C604 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41341F0DDB7F00C5C604 /* AppDelegate.swift */; };
 		095C41371F0DDB7F00C5C604 /* EEGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41361F0DDB7F00C5C604 /* EEGViewController.swift */; };
 		095C413A1F0DDB7F00C5C604 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095C41381F0DDB7F00C5C604 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		095C41551F0DDC3B00C5C604 /* EEGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C41541F0DDC3B00C5C604 /* EEGData.swift */; };
 		095C415B1F0E5C0E00C5C604 /* EEGTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */; };
 		095C415D1F0E5E5A00C5C604 /* EEGTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */; };
+		30C3F7AD0395AC68F79991A0 /* libPods-EEG_GAE_TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C158B396EFB0EAA6BF91FF8F /* libPods-EEG_GAE_TestApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C981419EDD946DC07E0499 /* Pods_EEG_GAE_TestAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EEG_GAE_TestAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		092DE3A71F24E069009FD541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "EEG_GAE_TestApp/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		095C41311F0DDB7F00C5C604 /* EEG_GAE_TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEG_GAE_TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C41341F0DDB7F00C5C604 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		095C41361F0DDB7F00C5C604 /* EEGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEGViewController.swift; sourceTree = "<group>"; };
+		095C41361F0DDB7F00C5C604 /* EEGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EEGViewController.swift; path = EEG_GAE_TestApp/EEGViewController.swift; sourceTree = "<group>"; };
 		095C41391F0DDB7F00C5C604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		095C413B1F0DDB7F00C5C604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		095C413E1F0DDB7F00C5C604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,9 +43,13 @@
 		095C41451F0DDB8000C5C604 /* EEG_GAE_TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EEG_GAE_TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		095C41491F0DDB8000C5C604 /* EEG_GAE_TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEG_GAE_TestAppTests.swift; sourceTree = "<group>"; };
 		095C414B1F0DDB8000C5C604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		095C41541F0DDC3B00C5C604 /* EEGData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGData.swift; sourceTree = "<group>"; };
+		095C41541F0DDC3B00C5C604 /* EEGData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EEGData.swift; path = EEG_GAE_TestApp/EEGData.swift; sourceTree = "<group>"; };
 		095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGTableViewCell.swift; sourceTree = "<group>"; };
-		095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEGTableViewController.swift; sourceTree = "<group>"; };
+		095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EEGTableViewController.swift; path = EEG_GAE_TestApp/EEGTableViewController.swift; sourceTree = "<group>"; };
+		09BAB7991F261C760051CD24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32A1525A195310E5D8107BF8 /* Pods-EEG_GAE_TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EEG_GAE_TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EEG_GAE_TestApp/Pods-EEG_GAE_TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		5A2392372D21D753DD9622C7 /* Pods-EEG_GAE_TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EEG_GAE_TestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EEG_GAE_TestApp/Pods-EEG_GAE_TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C158B396EFB0EAA6BF91FF8F /* libPods-EEG_GAE_TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EEG_GAE_TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C3F7AD0395AC68F79991A0 /* libPods-EEG_GAE_TestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +74,15 @@
 		095C41281F0DDB7F00C5C604 = {
 			isa = PBXGroup;
 			children = (
-				095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */,
+				09B5E2001F276CDB00F3C7CD /* Storyboard */,
+				09B5E1FF1F276CD100F3C7CD /* Class */,
+				09B5E1FD1F276CAA00F3C7CD /* Views */,
+				092DE3A71F24E069009FD541 /* GoogleService-Info.plist */,
 				095C41331F0DDB7F00C5C604 /* EEG_GAE_TestApp */,
 				095C41481F0DDB8000C5C604 /* EEG_GAE_TestAppTests */,
 				095C41321F0DDB7F00C5C604 /* Products */,
+				965B7B16E0E0D07152D3975D /* Frameworks */,
+				82D2187CD62DD711FB8F3ADA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,12 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				095C41341F0DDB7F00C5C604 /* AppDelegate.swift */,
-				095C41361F0DDB7F00C5C604 /* EEGViewController.swift */,
-				095C41381F0DDB7F00C5C604 /* Main.storyboard */,
-				095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */,
-				095C41541F0DDC3B00C5C604 /* EEGData.swift */,
+				09BAB7991F261C760051CD24 /* AppDelegate.h */,
 				095C413B1F0DDB7F00C5C604 /* Assets.xcassets */,
-				095C413D1F0DDB7F00C5C604 /* LaunchScreen.storyboard */,
 				095C41401F0DDB7F00C5C604 /* Info.plist */,
 			);
 			path = EEG_GAE_TestApp;
@@ -105,6 +115,51 @@
 			path = EEG_GAE_TestAppTests;
 			sourceTree = "<group>";
 		};
+		09B5E1FD1F276CAA00F3C7CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				095C415A1F0E5C0E00C5C604 /* EEGTableViewCell.swift */,
+				095C41361F0DDB7F00C5C604 /* EEGViewController.swift */,
+				095C415C1F0E5E5A00C5C604 /* EEGTableViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09B5E1FF1F276CD100F3C7CD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				095C41541F0DDC3B00C5C604 /* EEGData.swift */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		09B5E2001F276CDB00F3C7CD /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				095C41381F0DDB7F00C5C604 /* Main.storyboard */,
+				095C413D1F0DDB7F00C5C604 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		82D2187CD62DD711FB8F3ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A2392372D21D753DD9622C7 /* Pods-EEG_GAE_TestApp.debug.xcconfig */,
+				32A1525A195310E5D8107BF8 /* Pods-EEG_GAE_TestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		965B7B16E0E0D07152D3975D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07C981419EDD946DC07E0499 /* Pods_EEG_GAE_TestAppTests.framework */,
+				C158B396EFB0EAA6BF91FF8F /* libPods-EEG_GAE_TestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 095C414E1F0DDB8000C5C604 /* Build configuration list for PBXNativeTarget "EEG_GAE_TestApp" */;
 			buildPhases = (
+				053C4AD0B798CB49AF6572D4 /* [CP] Check Pods Manifest.lock */,
 				095C412D1F0DDB7F00C5C604 /* Sources */,
 				095C412E1F0DDB7F00C5C604 /* Frameworks */,
 				095C412F1F0DDB7F00C5C604 /* Resources */,
+				1EF53AE360E29C27153A9D76 /* [CP] Embed Pods Frameworks */,
+				1359DA2F8E26CD075C948F4F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095C413F1F0DDB7F00C5C604 /* LaunchScreen.storyboard in Resources */,
+				092DE3A81F24E069009FD541 /* GoogleService-Info.plist in Resources */,
 				095C413C1F0DDB7F00C5C604 /* Assets.xcassets in Resources */,
 				095C413A1F0DDB7F00C5C604 /* Main.storyboard in Resources */,
 			);
@@ -204,6 +263,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053C4AD0B798CB49AF6572D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1359DA2F8E26CD075C948F4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EEG_GAE_TestApp/Pods-EEG_GAE_TestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1EF53AE360E29C27153A9D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EEG_GAE_TestApp/Pods-EEG_GAE_TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		095C412D1F0DDB7F00C5C604 /* Sources */ = {
@@ -243,6 +350,7 @@
 				095C41391F0DDB7F00C5C604 /* Base */,
 			);
 			name = Main.storyboard;
+			path = EEG_GAE_TestApp;
 			sourceTree = "<group>";
 		};
 		095C413D1F0DDB7F00C5C604 /* LaunchScreen.storyboard */ = {
@@ -251,6 +359,7 @@
 				095C413E1F0DDB7F00C5C604 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = EEG_GAE_TestApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,6 +460,7 @@
 		};
 		095C414F1F0DDB8000C5C604 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A2392372D21D753DD9622C7 /* Pods-EEG_GAE_TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T54U3D8D38;
@@ -358,12 +468,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "test.EEG-GAE-TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/$(PROJECT_NAME)/AppDelegate.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		095C41501F0DDB8000C5C604 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32A1525A195310E5D8107BF8 /* Pods-EEG_GAE_TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T54U3D8D38;

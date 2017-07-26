@@ -8,13 +8,14 @@
 
 import UIKit
 import os.log
+import Firebase
+import FirebaseDatabase
 
 class EEGTableViewController: UITableViewController {
 
     //MARK: Properties
     
     var eegData = [EEG]() //create an array of our EEG objects
-    
     
     //MARK: Private Methods
     
@@ -47,6 +48,9 @@ class EEGTableViewController: UITableViewController {
         super.viewDidLoad()
 
         loadSampleDataSets()// load initial sample sets
+    
+        
+        /////
         
         
         // Uncomment the following line to preserve selection between presentations
