@@ -14,12 +14,47 @@ import FirebaseDatabase
 class EEGTableViewController: UITableViewController {
 
     //MARK: Properties
-    
+    //var ref = Database.database().reference(withPath: "Patient")
     var eegData = [EEG]() //create an array of our EEG objects
+    var ref:DatabaseReference?
+    //var databaseHandle:DatabaseHandle?
     
     //MARK: Private Methods
     
-    private func loadSampleDataSets(){ //Load inital data sets
+    private func updateDatabase(){
+        /*
+ This function will grab Patients from the database, and add them to the listview
+ 
+ */
+        ref = Database.database().reference(withPath: "Patient")
+        
+        ref?.observe(.childAdded, with: { snapshot in
+            print(snapshot)
+            if let userDict = snapshot.value as? [String:Any] {
+                let name = userDict["Name"]
+                let date = userDict["Date"]
+                let length = userDict["Length"]
+                guard let tempEeg = EEG(name: name as! String, setLength: length as! Int , timestamp: date as! String)
+                    else {
+                        fatalError("Unable to instantiate tempEeg")
+                }
+                
+               // self.eegData += [tempEeg]
+                
+              //  let newIndexPath = IndexPath(row: self.eegData.count, section: 0)
+                
+                self.eegData.append(tempEeg) // adds new row at end
+                
+                self.tableView.reloadData()
+                
+                
+                
+            }
+        })
+    }
+    
+    
+    func loadSampleDataSets(){ //Load inital data sets
         //let photo1 = UIImage(named: "meal1")
  
         // if we want to load images of the graphs, do that here too. See above comment
@@ -39,25 +74,16 @@ class EEGTableViewController: UITableViewController {
         }
         
         eegData += [eeg1,eeg2,eeg3]
-        
     }
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        loadSampleDataSets()// load initial sample sets
-    
-        
-        /////
         
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+       // loadSampleDataSets()// load initial sample sets
+        updateDatabase()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -114,12 +140,6 @@ class EEGTableViewController: UITableViewController {
                 
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
             }
-            
-            
-            
-
-            
-            
         }
     }
 

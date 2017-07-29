@@ -10,59 +10,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445656"
+            timestampString = "523024216.758682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "EEGTableViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445729"
+            timestampString = "523024216.759313"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "loadSampleDataSets()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445781"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "loadSampleDataSets()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445829"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "loadSampleDataSets()"
             landmarkType = "7">
          </BreakpointContent>
@@ -74,45 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445875"
+            timestampString = "523024216.759813"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "unwindToEEGList(sender:)"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "loadSampleDataSets()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EEG_GAE_TestApp.EEGTableViewController.unwindToMealList (sender : __ObjC.UIStoryboardSegue) -&gt; ()"
-                  moduleName = "EEG_GAE_TestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/graemecox/Documents/Capstone/Code/EEG_GAE_TestApp/EEG_GAE_TestApp/EEGTableViewController.swift"
-                  timestampString = "521082622.78604"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "95"
-                  endingLineNumber = "95"
-                  offsetFromSymbolStart = "19">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EEG_GAE_TestApp.EEGTableViewController.unwindToMealList (sender : __ObjC.UIStoryboardSegue) -&gt; ()"
-                  moduleName = "EEG_GAE_TestApp"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/graemecox/Documents/Capstone/Code/EEG_GAE_TestApp/EEG_GAE_TestApp/EEGTableViewController.swift"
-                  timestampString = "521082622.788144"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "95"
-                  endingLineNumber = "95"
-                  offsetFromSymbolStart = "163">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,11 +58,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
-            timestampString = "522725107.445919"
+            timestampString = "523024216.7603"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "loadSampleDataSets()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
+            timestampString = "523024216.760789"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EEG_GAE_TestApp/EEGTableViewController.swift"
+            timestampString = "523024216.761277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>

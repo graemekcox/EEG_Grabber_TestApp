@@ -53,7 +53,6 @@ class EEGViewController: UIViewController, UITextFieldDelegate {
         
         
         //update Firebase
-        
         let name_fb = self.ref.child(name.lowercased())
         name_fb.setValue(eeg?.toAnyObject())
         
